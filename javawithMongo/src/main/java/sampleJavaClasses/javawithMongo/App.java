@@ -30,7 +30,7 @@ public class App {
 		}
 
 	}
-
+	// This method return collection Object
 	private static MongoCollection<Document> getCollectionObject() {
 		String dbName = "ravitestdb";
 		MongoClient mongoClient = new MongoClient("localhost", 27017);

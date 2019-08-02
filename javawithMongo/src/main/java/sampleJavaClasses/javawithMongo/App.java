@@ -26,6 +26,7 @@ public class App {
 
 		while (it.hasNext()) {
 			System.out.println(it.next());
+			System.out.println("I value is : "+i);
 			i++;
 		}
 

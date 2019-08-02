@@ -6,6 +6,7 @@ public class GitPractice {
 		// TODO Auto-generated method stub
 
 		System.out.println("Hello Git Hub");
+		
 	}
 
 }

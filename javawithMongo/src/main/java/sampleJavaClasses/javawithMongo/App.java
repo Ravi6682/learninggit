@@ -29,10 +29,11 @@ public class App {
 			System.out.println("I value is : "+i);
 			i++;
 		}
-
+System.out.println("hi this is priya modifying the app.java");
 	}
 		
 	// This method return collection Object
+	
 	private static MongoCollection<Document> getCollectionObject() {
 		String dbName = "ravitestdb";
 		MongoClient mongoClient = new MongoClient("localhost", 27017);

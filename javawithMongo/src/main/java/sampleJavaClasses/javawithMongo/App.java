@@ -14,7 +14,7 @@ import com.mongodb.client.MongoDatabase;
 
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+
 		MongoCollection<Document> mgCollection = getCollectionObject();
 
 		FindIterable<Document> iterDoc = mgCollection.find();
@@ -26,10 +26,8 @@ public class App {
 
 		while (it.hasNext()) {
 			System.out.println(it.next());
-			System.out.println("I value is : "+i);
 			i++;
 		}
-System.out.println("hi this is priya modifying the app.java");
 	}
 		
 	// This method return collection Object
